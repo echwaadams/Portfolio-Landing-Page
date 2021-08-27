@@ -12,3 +12,67 @@ body
     min-height: 200vh;
     background: #0a2540;
 }
+
+/* HEADER SECTION  */
+.container
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #2840cb;
+}
+.nav-link
+{
+    position: relative;
+    top: 30px;
+    left: 160px;
+}
+.nav-link ul
+{
+    position: relative;
+    left: 100px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 15px;
+}
+.nav-link ul li
+{
+    justify-content: space-between;
+    align-items: center;
+    top: 30px;
+    letter-spacing: 2px;
+    margin: 0 15px;
+}
+.nav-link ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.nav-link ul li a:hover
+{
+    color: #551a8b;
+}
+.logo
+{
+    position: absolute;
+    top: 0;
+    padding: 0px;
+    font-size: 2vw;
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: 2px 2px #0a2540;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1028px)
+{
+    body 
+    {
+        background: #0000;
+        color: white;
+    }
+}
