@@ -52,10 +52,12 @@ body
     text-decoration: none;
     font-size: 1.5vw;
     font-weight: 700;
+
 }
 .nav-link ul li a:hover
 {
-    color: #551a8b;
+    color: #ffc025;
+    /* background-color: #a52a2a; */
 }
 .logo
 {
@@ -130,6 +132,11 @@ body
     margin-top: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+.banner-content a:hover
+{
+    /* color: #ffc025; */
+    background-color: #a52a2a;
 }
 /* ABOUT PAGE */
 .section
