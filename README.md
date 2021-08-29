@@ -1,4 +1,4 @@
-# {Portfolio Landing Page}
+# Portfolio Landing Page
 #### By Adams Echwa
 ## Description
 This is a portfolio landing page showcasing my recent works as ASoftware 
