@@ -131,6 +131,137 @@ body
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+/* ABOUT PAGE */
+.section
+{
+    width: 100%;
+    min-height: 100vh;
+    background: #ddd;
+}
+.content-section
+{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+
+}
+.about
+{
+    float: left;
+    width: 55%;
+}
+.image-section
+{
+    float: right;
+    width: 40%;
+}
+.image-section img
+{
+    width: 400px;
+    height: 400px;
+    top: -80px;
+    border-radius: 50%;
+}
+.content-section .about
+{
+    text-transform: uppercase;
+    font-size: 1.5vw;
+}
+.content-section .about
+{
+    position: relative;
+}
+.content-section .cont p
+{
+    margin-top: 10px;
+    color: #5d5d5d;
+    font-size: 17px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.content-section .cont .button
+{
+    margin-top: 30px;
+}
+.content-section .cont .button a
+{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.content-section .cont .button a:hover
+{
+    background-color: #a52a2a;
+    color: #fff;
+}
+.content-section .social
+{
+    margin: 40px 40px;
+}
+.content-section .social i
+{
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social i:hover
+{
+    color: #3d3d3d;
+}
+
+@media screen and (max-width: 768px)
+{
+    .section
+    {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section
+    {
+        float: none;
+        width: 100%;
+        display: block;
+        margin:auto;
+    }
+    .image-section
+    {
+        float: none;
+        width: 100%;
+        display: block;
+        margin:auto;
+    }
+    .image-section img 
+    {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .about
+    {
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .cont .button
+    {
+        text-align: center;
+    }
+    .content-section .cont .button a
+    {
+        padding: 9px 30px;
+    }
+    .content-section .social
+    {
+        text-align: center;
+    }
+
+}
 @media screen and (min-width: 480px) and (max-width: 1028px)
 {
     body 
