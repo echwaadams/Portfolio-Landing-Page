@@ -477,6 +477,7 @@ body
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-transform: uppercase;
     top: 60px;
     color: white;
     letter-spacing: 2px;
